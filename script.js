@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <img src="${projet.image}" alt="${projet.title}">
                     <h3>${projet.title}</h3>
                     <p>${projet.description}</p>
+                    ${projet.link ? `<a href="${projet.link}" target="_blank" class="cta-button">Voir le projet</a>` : ''}
                 `;
 
                 projetsGrid.appendChild(projetCarte);

@@ -208,6 +208,8 @@ h2 {
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .projet-carte:hover {
@@ -231,6 +233,12 @@ h2 {
     padding: 0 20px 20px;
     margin: 0;
     color: #777;
+    flex-grow: 1;
+}
+
+.projet-carte .cta-button {
+    margin: 0 20px 20px;
+    text-align: center;
 }
 
 
