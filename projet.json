@@ -1,0 +1,17 @@
+[
+    {
+        "image": "./images/BOOKI_OPCR_DOUGLAS.png",
+        "title": "Booki",
+        "description": "Le projet Booki consiste à créer la page d’accueil d’une agence de voyage. L’objectif est d’intégrer une maquette fournie en HTML et CSS, sans framework.Il met l’accent sur le respect des normes W3C, la sémantique et l’accessibilité.L’adaptation responsive (mobile, tablette, desktop) est une contrainte majeure.Ce projet permet d’acquérir de solides bases en intégration web et en mise en page CSS."
+    },
+    {
+        "image": "https://via.placeholder.com/400x250",
+        "title": "Application Mobile",
+        "description": "Application mobile responsive pour la gestion de tâches avec synchronisation cloud. Interface intuitive et performante sur tous les appareils."
+    },
+    {
+        "image": "https://via.placeholder.com/400x250",
+        "title": "Site Corporate",
+        "description": "Site vitrine moderne pour une entreprise de consulting avec animations fluides, design responsive et optimisation SEO avancée."
+    }
+]
