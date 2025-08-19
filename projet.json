@@ -6,15 +6,15 @@
         "link": "https://douglasdu87.github.io/Booki/"
     },
     {
-        "image": "https://via.placeholder.com/400x250",
-        "title": "Application Mobile",
-        "description": "Application mobile responsive pour la gestion de tâches avec synchronisation cloud. Interface intuitive et performante sur tous les appareils.",
-        "link": ""
+        "image": "./images/NINA_CARDUCCI.png",
+        "title": "NINA_CARDUCCI",
+        "description": "Le projet Nina Carducci d’OpenClassrooms, consiste à optimiser le site vitrine d’une photographe professionnelle. Il met l’accent sur le référencement SEO, la performance web et l’accessibilité. Difficultés rencontrées. La principale difficulté est de comprendre et corriger les problèmes techniques liés au SEO (balises, métadonnées, structure sémantique). L’optimisation des performances (taille des images, scripts inutiles, chargement différé) demande une approche méthodique et des tests réguliers avec Lighthouse. Enfin, rendre le site accessible à tous (navigation clavier, lecteurs d’écran, contrastes) nécessite de respecter des normes strictes et parfois peu intuitives.",
+        "link": "https://douglasdu87.github.io/NINA_CARDUCCI/"
     },
     {
-        "image": "https://via.placeholder.com/400x250",
-        "title": "Site Corporate",
-        "description": "Site vitrine moderne pour une entreprise de consulting avec animations fluides, design responsive et optimisation SEO avancée.",
+        "image": "./images/mon.png",
+        "title": "Mon_vieux_grimoire",
+        "description": "Le projet Mon Vieux Grimoire d’OpenClassrooms consiste à développer une API sécurisée permettant aux utilisateurs d’ajouter, modifier, supprimer et noter des livres.Il met en avant la gestion des données, la sécurité des utilisateurs et le respect des standards REST. Difficultés rencontrées : La première difficulté est la mise en place d’une authentification sécurisée avec JWT et le hashage des mots de passe. Ensuite, la gestion des images (upload, stockage, suppression) via Multer peut générer des erreurs si elle n’est pas bien configurée. Enfin, l’organisation du code en routes, modèles et contrôleurs pour garder un backend clair et maintenable demande une bonne rigueur de développement.",
         "link": ""
     }
 ]

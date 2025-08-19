@@ -43,6 +43,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 projetsGrid.appendChild(projetCarte);
             });
+
+            // Image zoom functionality
+            const projectImages = document.querySelectorAll('.projet-carte img');
+            projectImages.forEach(image => {
+                image.addEventListener('click', function() {
+                    const overlay = document.createElement('div');
+                    overlay.classList.add('zoom-overlay');
+                    
+                    const zoomedImage = document.createElement('img');
+                    zoomedImage.src = this.src;
+                    
+                    overlay.appendChild(zoomedImage);
+                    document.body.appendChild(overlay);
+
+                    // Trigger the transition
+                    setTimeout(() => {
+                        overlay.classList.add('active');
+                    }, 10);
+
+                    overlay.addEventListener('click', function() {
+                        this.classList.remove('active');
+                        setTimeout(() => {
+                            document.body.removeChild(this);
+                        }, 300); // Match transition duration
+                    });
+                });
+            });
         }
       } catch (error) {
         console.error("Erreur lors du chargement des projets :", error);
