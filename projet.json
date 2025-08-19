@@ -12,7 +12,7 @@
         "link": "https://douglasdu87.github.io/NINA_CARDUCCI/"
     },
     {
-        "image": "./images/mon.png",
+        "image": "./images/mon-vieux-grimoire.png",
         "title": "Mon_vieux_grimoire",
         "description": "Le projet Mon Vieux Grimoire d’OpenClassrooms consiste à développer une API sécurisée permettant aux utilisateurs d’ajouter, modifier, supprimer et noter des livres.Il met en avant la gestion des données, la sécurité des utilisateurs et le respect des standards REST. Difficultés rencontrées : La première difficulté est la mise en place d’une authentification sécurisée avec JWT et le hashage des mots de passe. Ensuite, la gestion des images (upload, stockage, suppression) via Multer peut générer des erreurs si elle n’est pas bien configurée. Enfin, l’organisation du code en routes, modèles et contrôleurs pour garder un backend clair et maintenable demande une bonne rigueur de développement.",
         "link": ""
